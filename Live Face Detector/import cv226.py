@@ -1,6 +1,6 @@
 import cv2 as cv
 
-capture = cv.VideoCapture(0) #to open Camera
+capture = cv.VideoCapture(0) 
 
 pretrained_model = cv.CascadeClassifier("face_detector.xml") 
 
